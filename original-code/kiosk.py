@@ -58,8 +58,8 @@ class Kiosk():
         
         client = cl() # redacted api key
         msg = client.messages.create(
-            to='+447539203582',
-            from_='+447401095513',
+            to='', # redacted contact number
+            from_='+447401095513', # redacted contact number
             body=f'Great news, order number: {unique_number} is on the way and due to arrive at {eta_str}'
         )
         
